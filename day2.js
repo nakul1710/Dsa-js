@@ -1,4 +1,4 @@
- //9. Missing number
+ //1. Missing number
 
  function missingNumber(nums) {
     let n = nums.length;
@@ -14,7 +14,7 @@
     return number;
 };
 
-//10. Mediun of two sorted arrays
+//2. Mediun of two sorted arrays
 
 function findMedianSortedArrays(nums1, nums2) {
     const merged = [];
@@ -44,7 +44,7 @@ function findMedianSortedArrays(nums1, nums2) {
 }
 
 
-//11. Max product of two elements in array
+//3. Max product of two elements in array
 
 function maxProd(nums){
     let max1 = 0;
@@ -65,7 +65,7 @@ return (max1-1)*(max2-1);
 
 
 
-//12.Squares of sorted array
+//4.Squares of sorted array
 var sortedSquares = function(nums) {
     let n = nums.length;
     let result = new Array(n);
@@ -93,7 +93,7 @@ var sortedSquares = function(nums) {
 
 
 
-//13  Two Sum 2
+//5  Two Sum 2
 
 var twoSum = function(numbers, target) {
     let ans = new Array(2);
@@ -117,7 +117,7 @@ var twoSum = function(numbers, target) {
 };
 
 
-//14 Product of array except self
+//6 Product of array except self
 
 var productExceptSelf = function(nums) {
     let n = nums.length;
@@ -142,7 +142,7 @@ var productExceptSelf = function(nums) {
 
 
 
-//15 Bulb Switcher
+//7 Bulb Switcher
 var bulbSwitch = function(n) {
     let count = 0;
     let i = 1;
@@ -156,7 +156,7 @@ var bulbSwitch = function(n) {
 
 
 
-//16 Largest number atleast twice of other 
+//8 Largest number atleast twice of other 
 
 var dominantIndex = function(nums) {
     let max = -1, sMax = -1;
