@@ -104,7 +104,7 @@ var search = function(nums, target) {
 };
 
 
-//6. first and last position in an array
+//6. first and last position in array
 
 var searchRange = function(nums, target) {
 
