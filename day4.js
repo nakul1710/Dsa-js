@@ -133,4 +133,18 @@ var targetIndices = function(nums, target) {
 };
 
 //6.
+var maximumCount = function(nums) {
+    let pos = 0;
+    let neg = 0;
 
+    for (let i = 0; i < nums.length; i++) {
+        if (nums[i] > 0) {
+            pos++;
+        } else if (nums[i] < 0) {
+            neg++;
+        }
+    }
+
+    let ans = Math.max(pos, neg);
+    return ans;
+};
